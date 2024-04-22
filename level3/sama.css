@@ -1,0 +1,38 @@
+.main-container{
+    background-color: bisque;
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+a{
+    margin: 0;
+    display: inline-block;
+    margin: 15px ;
+}
+.buttons{
+    display: flex;
+    
+}
+.login, .signup{
+    margin: 10px 60px;
+}
+.remember{
+    display: block;
+}
+.log-in{
+    display: flex;
+    margin: 5px;
+    position: relative;
+    top:50%;
+    left:50%;    
+    transform: translate(-50%, -50%);
+}
+/* .main-form{
+    position: relative;
+    justify-content: center;
+    top:50%;
+    left:50%;    
+    transform: translate(-50%, -50%);
+
+} */
